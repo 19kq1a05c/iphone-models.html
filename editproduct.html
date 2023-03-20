@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Edit Product</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Edit Product</h1>
+      <form>
+        <label for="name">Product Name:</label>
+        <input type="text" id="name" name="name" value="iPhone 12" required>
+
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" value="799" required>
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description">The iPhone 12 is a powerful smartphone with advanced features.</textarea>
+
+        <label for="image">Image:</label>
+        <input type="file" id="image" name="image">
+
+        <input type="submit" value="Save Changes">
+      </form>
+    </div>
+  </body>
+</html>
